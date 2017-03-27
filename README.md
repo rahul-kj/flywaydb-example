@@ -7,7 +7,13 @@ FlywayDB allows us to make DB migrations easier. To use this project, you need t
 
 Additionally, you need to have a Database that you want to interact with, and provide the maven dependency in the `pom.xml`
 
-To execute this program, you need to set the environment variables - `database.url` - JDBC url for the database - `database.username` - Database username - `database.password` - Database password - `database.file.locations` - classpath:[path] or filesystem:[path] - `cron.interval` - cron interval time
+To execute this program, you need to set the environment variables
+
+-	`database.url` - JDBC url for the database
+-	`database.username` - Database username
+-	`database.password` - Database password
+-	`database.file.locations` - classpath:[path] or filesystem:[path]
+-	`cron.interval` - cron interval time
 
 You need to create a table called `schema_version` with the following fields
 
